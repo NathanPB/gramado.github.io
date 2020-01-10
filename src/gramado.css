@@ -2,7 +2,6 @@
     File: gramado.css 
 	
 	Client side CSS library.
-    
 	Gramado Personas 2018.
 	----------------------
 	
@@ -21,35 +20,33 @@
     Obs: Essa organização é inspirada na organização de outra biblioteca open source
 disponível na web.
     Obs: Ordem: Reset/Elements/Typography/Globals/@media MAX/@media MIN.
-	
+
 1.0:
     Reset. ?? 
-	(Inicializações).
-	
+    (Inicializações).
+
 2.0:
     Elements. 
-	Elementos básicos. 
-	Os elementos básicos de html como 
-	del, figure, img, th, td, (th, td) ,caption, table dd, dt,dl li, ul, ol, hr.
+    Elementos básicos. 
+    Os elementos básicos de html como 
+    del, figure, img, th, td, (th, td) ,caption, table dd, dt,dl li, ul, ol, hr.
 
 3.0:
     Typography.
-	Big, small (font size ??) 
-	sup, sub, 
-	mark, ins, pre, samp, var, tt, kbd, code, address, blockquote support, 
-	h1, h2, h3, h4, h5, h6 ... 
-	p, b, 
-	strong, dfn, cite, em, i, body,
+    Big, small (font size ??) 
+    sup, sub, 
+    mark, ins, pre, samp, var, tt, kbd, code, address, blockquote support, 
+    h1, h2, h3, h4, h5, h6 ... 
+    p, b, 
+    strong, dfn, cite, em, i, body,
     button, input, select, textarea,
-		
-	
+
 4.0: 
     Classes globais.
-	ux4-thinking, ux3-logic, ux2-creativity ,ux1-action
+    ux4-thinking, ux3-logic, ux2-creativity ,ux1-action
  
 5.0:
    @media MIN
-   
    
     @todo:
         Simplificar as funcionalidades. 
@@ -65,11 +62,11 @@ html, body {
 /* +1 Reset */
 
     button {
-        cursor: pointer;		
+        cursor: pointer;
     }
 
    caption {
-		
+
         padding-top: 8px;
         padding-bottom: 8px;
         text-align: left;
@@ -106,7 +103,7 @@ html, body {
     }
 
     img {
-	    border: 0;
+        border: 0;
     }
 
     th {
@@ -129,21 +126,21 @@ html, body {
 
     dd {
         margin-left: 0;
-    }	
-	
+    }
+
     figure {
         margin: 0;
     }
-	
+
     hr {
         margin-top: 22px;
         margin-bottom: 22px;
         border: 0;
         border-top: 1px solid #ddd;
         height: 0;
-      }	
+      }
 
-	
+
     label {
         font-weight: bold;
         margin-bottom: 8px;
@@ -160,9 +157,9 @@ html, body {
 
     input {
         margin: 0;
-        font-size: 15px;    
-        padding-top: 8px;		
-        color: #555;		
+        font-size: 15px; 
+        padding-top: 8px;
+        color: #555;
     }
 
     output {
@@ -170,12 +167,12 @@ html, body {
         display: block;
         padding-top: 8px;
         color: #555;
-    }		
-	 	 
-    table {
-        background-color: transparent;		
     }
-	
+ 
+    table {
+        background-color: transparent;
+    }
+
     article,
     figure,
     footer,
@@ -185,34 +182,32 @@ html, body {
 
 
 
-	
  
  
 /* +2 Elements */
 
     html {
-		
-	    /* naturalmente pequena no html */
-        
-		font-size: 11px;
-		font-family: "Minion", fantasy, Optima; /*font-family: sans-serif;*/
+
+    /* naturalmente pequena no html */
+
+        font-size: 11px;
+        font-family: "Minion", fantasy, Optima; /*font-family: sans-serif;*/
         padding:0;
-		border:0;
+        border:0;
         margin:0;
     } 
 
     head { /* Nothing */ }
  
-	body {
-	    
-		/* naturalmente média o|o no body  (A) */
-		font-size: 15px;
+    body {
+
+        /* naturalmente média o|o no body  (A) */
+        font-size: 15px;
         font-family: "Decorative", Schola, American ; /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-        margin: 0;	       
-		position: absolute;
+        margin: 0;
+        position: absolute;
         color: #FFF;
-    }	
-	 
+    }
 
 
 /*
@@ -224,7 +219,7 @@ html, body {
  */
 	
 	strong {
-	    font-weight: bold; 	
+	    font-weight: bold;
 	}
 	
 	
@@ -233,10 +228,10 @@ html, body {
 		font-size: 15px; /*A*/
 		
 	    /* color */
-        color: #3377aa;*/
-        background-color: transparent;				
-		
-	    /* text */		
+        color: #3377aa;
+        background-color: transparent;
+
+	    /* text */
         text-decoration: none;		
         text-decoration-color: currentcolor;
         text-decoration-line: none;
@@ -245,7 +240,7 @@ html, body {
 	
 
     a:active {
-        outline: 1;		
+        outline: 1;
 	}
     
 	a:focus {
@@ -254,7 +249,7 @@ html, body {
     }
 	
     a:hover {
-        color: #225588;		
+        color: #225588;
         text-decoration: underline;
         outline: 0;		
 	}
@@ -282,11 +277,11 @@ html, body {
 		
 	em {
         font-size: 18px;
-        font-weight: bold; 		
+        font-weight: bold; 
 	}
 	
 	font {
-	    /*font-weight: bold; */ 		
+	    /*font-weight: bold; */ 
 	}	
 	
 
@@ -319,7 +314,7 @@ html, body {
 	input {
         font-size: 15px;
 		font-family: "Lucida Grande";
-        line-height: normal;		
+        line-height: normal;
     }
 	
 	
@@ -384,19 +379,19 @@ html, body {
 
 
   .button {
-	  
+
         font-size: 15px;
         font-weight: normal;
         text-align: center;
         display: inline-block;
         padding: 11px 11px;
-        margin-bottom: 0;	  
+        margin-bottom: 0;
         vertical-align: middle;
         cursor: pointer;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
-	  
+
     }
 
     .button-primary {
@@ -413,14 +408,28 @@ html, body {
 
 
     .container {
-		
+
         padding-right: 15px;
         padding-left: 15px;
-		
         margin-right: auto;
         margin-left: auto;
 		
     }
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 
 
     .container-wide {
@@ -491,9 +500,8 @@ html, body {
     .label {
        font-size: 88%;
        font-weight: bold;
-	   text-align: center;
+       text-align: center;
        display: inline;
-
        line-height: 1;
        color: #fff;
     }
@@ -514,7 +522,7 @@ html, body {
     }
 	
     .navbar-brand {
-        font-size: 18px;		
+        font-size: 18px;
         float: left;
         height: 55px;
         padding: 15px 15px;
@@ -550,14 +558,14 @@ html, body {
  		
     /*Módulos onde os posts serão apresentados em /blog/index.html */
     .posts {
-	    
-		font-size: 15px;
+
+        font-size: 15px;
         font-family:'Arial';
         margin-left:auto;
         margin-right:auto;
-        border: 1px solid #d8d8d8;	 
-		background: White;
-        position: relative;		
+        border: 1px solid #d8d8d8;
+        background: White;
+        position: relative;
         width: 88%;
         height: 44%;
     }
@@ -566,7 +574,7 @@ html, body {
     .progress-bar {
 		
         font-size: 11px;
-		text-align: center;
+        text-align: center;
         float: left;
         width: 0;
         height: 100%;
@@ -580,13 +588,12 @@ html, body {
     .table {
         width: 100%;
         max-width: 100%;
-		
         margin-bottom: 15px;
     }
 
 
     .thumbnail {
-		
+
         display: block;
         padding: 8px;
         margin-bottom: 22px;
